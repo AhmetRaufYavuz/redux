@@ -23,7 +23,7 @@ import {
       case TOGGLE_FAVORITES:
         return {
           ...state,
-          displayFavorites: !sttate.displayFavorites,
+          displayFavorites: !state.displayFavorites,
         };
       case REMOVE_FAVORITE:
         return {
